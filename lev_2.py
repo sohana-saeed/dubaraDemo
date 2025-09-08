@@ -38,3 +38,8 @@
 
 # check if string is palindrom
 
+str = input("Enter any string: ")
+if str == str[::-1]:
+    print("Palindrome")
+else:
+    print("Not palindrome")
