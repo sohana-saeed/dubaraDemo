@@ -36,10 +36,10 @@
 # else:
 #     print("not a prime")
 
-# check if string is palindrom
+# # check if string is palindrom
 
-str = input("Enter any string: ")
-if str == str[::-1]:
-    print("Palindrome")
-else:
-    print("Not palindrome")
+# str = input("Enter any string: ")
+# if str == str[::-1]:
+#     print("Palindrome")
+# else:
+#     print("Not palindrome")....
