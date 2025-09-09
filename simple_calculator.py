@@ -6,7 +6,7 @@ def add(*args):
 
 def sub(*args):
     dif = args[0]
-    for i in args:
+    for i in args[1:]:
         dif -= i
     return dif
 
@@ -17,8 +17,8 @@ def mul(*args):
     return product
 
 def div(*args):
-    division = 1
-    for i in args:
+    division = args[0]
+    for i in args[1:]:
         division /= i
     return division
 
