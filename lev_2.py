@@ -43,3 +43,8 @@
 #     print("Palindrome")
 # else:
 #     print("Not palindrome")....
+
+num = "123"
+list = num.split()
+print(list)
+   
